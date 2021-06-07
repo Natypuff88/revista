@@ -1,0 +1,53 @@
+.newsletter{
+    display: block;
+    align-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e2;
+
+
+
+    &__title{
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        font-family: $lato;
+        font-weight: $bold;
+        font-size: $medium;
+    }
+
+    &__text{
+        text-align: center;
+        padding-bottom: 30px;
+        font-family: $lato;
+        font-weight: $light;
+        font-size: $small;
+    }
+
+    &__group{
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+
+    &__input{
+        font-family: $lato;
+        font-weight: $light;
+        font-size: $small;
+    }
+
+    &__button{
+        width: 100px;
+        height: 30px;
+        border: lightcoral;
+        background-color: lightcoral;
+        color: lightgoldenrodyellow;
+        font-family: $lato;
+        font-weight: $light;
+        font-size: $small;
+    }
+}
+
+
